@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello World</title>
+    <style>
+        /* Basic CSS for responsiveness */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+        }
+
+        h1 {
+            font-size: 2rem; /* Default font size */
+            color: #333;
+            text-align: center;
+        }
+
+        /* For larger screens (desktops) */
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 3rem; /* Increase font size for larger screens */
+            }
+        }
+    </style>
 </head>
 <body>
     <h1>Hello, World!</h1>
 </body>
 </html>
+
